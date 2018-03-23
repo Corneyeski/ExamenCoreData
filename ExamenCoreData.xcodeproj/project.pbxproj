@@ -13,6 +13,10 @@
 		33A19D64206571A4002341FD /* ExamenCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33A19D62206571A4002341FD /* ExamenCoreData.xcdatamodeld */; };
 		33A19D66206571A4002341FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A19D65206571A4002341FD /* Assets.xcassets */; };
 		33A19D69206571A4002341FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A19D67206571A4002341FD /* LaunchScreen.storyboard */; };
+		33A19D722065790D002341FD /* Asignatura+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A19D702065790D002341FD /* Asignatura+CoreDataClass.swift */; };
+		33A19D732065790D002341FD /* Asignatura+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A19D712065790D002341FD /* Asignatura+CoreDataProperties.swift */; };
+		33A19D7520658596002341FD /* NotasFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A19D7420658596002341FD /* NotasFinal.swift */; };
+		33A19D792065870F002341FD /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A19D782065870F002341FD /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		33A19D65206571A4002341FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33A19D68206571A4002341FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33A19D6A206571A4002341FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A19D702065790D002341FD /* Asignatura+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asignatura+CoreDataClass.swift"; sourceTree = "<group>"; };
+		33A19D712065790D002341FD /* Asignatura+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asignatura+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		33A19D7420658596002341FD /* NotasFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasFinal.swift; sourceTree = "<group>"; };
+		33A19D782065870F002341FD /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		33A19D4F206571A4002341FD = {
 			isa = PBXGroup;
 			children = (
+				33A19D702065790D002341FD /* Asignatura+CoreDataClass.swift */,
+				33A19D712065790D002341FD /* Asignatura+CoreDataProperties.swift */,
 				33A19D5A206571A4002341FD /* ExamenCoreData */,
 				33A19D59206571A4002341FD /* Products */,
 			);
@@ -63,6 +73,8 @@
 				33A19D67206571A4002341FD /* LaunchScreen.storyboard */,
 				33A19D6A206571A4002341FD /* Info.plist */,
 				33A19D62206571A4002341FD /* ExamenCoreData.xcdatamodeld */,
+				33A19D7420658596002341FD /* NotasFinal.swift */,
+				33A19D782065870F002341FD /* PickerViewController.swift */,
 			);
 			path = ExamenCoreData;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A19D732065790D002341FD /* Asignatura+CoreDataProperties.swift in Sources */,
+				33A19D722065790D002341FD /* Asignatura+CoreDataClass.swift in Sources */,
 				33A19D5E206571A4002341FD /* ViewController.swift in Sources */,
 				33A19D64206571A4002341FD /* ExamenCoreData.xcdatamodeld in Sources */,
+				33A19D7520658596002341FD /* NotasFinal.swift in Sources */,
+				33A19D792065870F002341FD /* PickerViewController.swift in Sources */,
 				33A19D5C206571A4002341FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
